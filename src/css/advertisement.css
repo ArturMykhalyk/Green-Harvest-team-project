@@ -1,3 +1,54 @@
 .advertisement {
-    color: #576F35;
+    background-color: #fbfbfb;
+}
+
+.advertisement-text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+}
+
+.advertisement-text span {
+    color: #fbfbfb;
+    display: inline-block;
+    background-color: #576f35;
+    border-radius: 12px;
+
+}
+
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+    .advertisement-text {
+        line-height: 1;
+        font-size: 64px;
+    }
+
+    .advertisement-text span {
+        width: 675px;
+        padding-top: 20px;
+    }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+
+    .advertisement-text {
+        font-size: 76px;
+    }
+
+    .advertisement-text span {
+        width: 811px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-right: 2px;
+        padding-left: 16px;
+        margin-left: -16px;
+    }
+
+    .advertisement-container {
+        padding-left: 116px;
+    }
 }
