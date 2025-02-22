@@ -2,13 +2,47 @@
   <div class="container container-works">
     <h2 class="visually-hidden">how-it-works</h2>
     <div class="works-content-img">
-      <img
-        class="works-img"
-        src="/img/how-it-works/image.jpg"
-        width="335"
-        height="452"
-        alt="women and apple"
-      />
+      <picture>
+        <source
+          srcset="
+            /img/how-it-works/image-desktop.webp    1x,
+            /img/how-it-works/image-desktop@2x.webp 2x
+          "
+          type="image/webp"
+          media="(min-width:1280px)"
+          width="440"
+          height="560"
+        />
+        <source
+          srcset="
+            /img/how-it-works/image-tablet.webp    1x,
+            /img/how-it-works/image-tablet@2x.webp 2x
+          "
+          type="image/webp"
+          media="(min-width:768px)"
+          width="640"
+          height="640"
+        />
+
+        <source
+          srcset="
+            /img/how-it-works/image-mobile.webp    1x,
+            /img/how-it-works/image-mobile@2x.webp 2x
+          "
+          type="image/webp"
+          media="(max-width:767px)"
+          width="335"
+          height="452"
+        />
+
+        <img
+          class="works-img"
+          src="/img/how-it-works/image.jpg"
+          width="335"
+          height="452"
+          alt="women and apple"
+        />
+      </picture>
     </div>
     <div class="works-content">
       <p class="works-content-title">
