@@ -1,3 +1,27 @@
-.how-it-works {
-    color: #576F35;
+.how-it-works {}
+
+.container {}
+
+.works-content-img {
+    background-color: #7a3145;
 }
+
+.works-img {
+    border-radius: 30px;
+
+}
+
+.works-content {
+    background-color: #576f35;
+
+}
+
+.works-content-title {}
+
+.works-content-text {}
+
+.works-content-list {}
+
+.works-content-item {}
+
+.works-content-item-deskr {}
