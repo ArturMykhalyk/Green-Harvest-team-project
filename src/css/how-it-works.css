@@ -33,9 +33,9 @@
 }
 
 .works-content-text {
-    font-weight: 500;
+
     font-size: 14px;
-    line-height: 1.42857;
+    line-height: 1.43;
     color: #fbfbfb;
     margin-bottom: 40px;
 }
@@ -63,15 +63,15 @@
 }
 
 .works-content-item-deskr {
-    font-weight: 500;
+  
     font-size: 14px;
-    line-height: 1.42857;
+    line-height: 1.43;
     color: #858585;
 }
 
 .works-content-item-deskr span {
     font-weight: 700;
-    color: #141414;
+
 }
 
 .works-content-item::before {
